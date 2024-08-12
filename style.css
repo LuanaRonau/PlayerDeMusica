@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    background: rgba(15, 13, 19, 1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portrait {
+    background-color: #2A2141;
+    box-sizing: border-box;
+    max-width: 266.48px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 9.6px;
+    padding: 50.95px 38.41px;
+}
+
+.foto {
+    margin-bottom: 28.81px;
+    width: 189.66px;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+}
+
+.musica {
+    color: #E1E1E6;
+    font-size: 24.01px;
+    font-weight: bold;
+    margin-bottom: 9.6px;
+}
+
+.autoria {
+    color: rgba(225, 225, 230, 0.67);
+    font-size: 19.21px;
+    font-weight: normal;
+    margin-bottom: 28.81px;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28.81px;
+}
+
+.progresso {
+    height: 6px;
+    /*width: 189.66px;*/
+    background-color: rgba(217, 217, 217, 0.3);
+    border-radius: 9.6px;
+}
+
+.tocado {
+    height: 6px;
+    width: 165px;
+    background-color: rgba(217, 217, 217, 0.8);
+    border-radius: 9.6px;
+    margin-top: -6px;
+    margin-bottom: 9.6px;
+}
+
+.minutagem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.min_tocados, .min_faltando {
+    color: rgba(196, 196, 204, 0.7)
+}
+
+.landscape {
+    display: flex;
+    background-color: #2A2141;
+    height: min-content;
+    border-radius: 9.6px;
+    max-width: 357.71px;
+    padding: 28.81px;
+    flex-direction: column;
+}
+
+header img {
+    max-height: 84.03px;
+    max-width: fit-content;
+    border-radius: 6px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.infos {
+    margin-left: 28.81px;
+}
+
+.control {
+    display: flex;
+    align-self: center;
+    /*flex-direction: row;*/
+    width: 186.43px;
+}
+
+#tocado_landscape { 
+    width: 261.08px;
+}
+
+.minimized {
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.landscapes {
+    margin-left: 32px;
+}
+
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Player de música</title>
+</head>
+<body>
+    <main>
+        <div id="portrait">
+            <img src="hans-eiskonen-8Pm_A-OHJGg-unsplash 1.png" alt="imagem ilustrativa" class="foto">
+            <p class="musica">Acorda Devinho</p>
+            <p class="autoria">Banda Rocketseat</p>
+            <div class="control">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-rewind-fill" viewBox="0 0 16 16">
+                    <path d="M8.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L8.404 7.304Z"/>
+                    <path d="M.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L.404 7.304Z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-fast-forward-fill" viewBox="0 0 16 16">
+                    <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+                    <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+                </svg>
+            </div>
+            <figure class="progresso"></figure>
+            <figure class="tocado"></figure>
+            <div class="minutagem">
+                <p class="min_tocados">03:20</p>
+                <p class="min_faltando">00:12</p>
+            </div>
+        </div>
+        
+        <div class="landscape all">
+            <header>
+                <img src="hans-eiskonen-8Pm_A-OHJGg-unsplash 1.png" alt="imagem ilustrativa" class="foto-peq">
+                <div class="infos">
+                    <p class="musica">Acorda Devinho</p>
+                    <p class="autoria">Banda Rocketseat</p>
+                </div>
+            </header>
+            <div class="control">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-rewind-fill" viewBox="0 0 16 16">
+                    <path d="M8.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L8.404 7.304Z"/>
+                    <path d="M.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L.404 7.304Z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-fast-forward-fill" viewBox="0 0 16 16">
+                    <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+                    <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+                </svg>
+            </div>
+            <figure class="progresso"></figure>
+            <figure class="tocado" id="tocado_landscape"></figure>
+            <div class="minutagem">
+                <p class="min_tocados">03:20</p>
+                <p class="min_faltando">00:12</p>
+            </div>
+        </div>
+    
+        <div class="landscape minimized">
+            <header>
+                <img src="hans-eiskonen-8Pm_A-OHJGg-unsplash 1.png" alt="imagem ilustrativa" class="foto-peq">
+                <div class="infos">
+                    <p class="musica">Acorda Devinho</p>
+                    <p class="autoria">Banda Rocketseat</p>
+                </div>
+            </header>
+            <div class="control">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-rewind-fill" viewBox="0 0 16 16">
+                    <path d="M8.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L8.404 7.304Z"/>
+                    <path d="M.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L.404 7.304Z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28.81" height="28.81" fill="white" class="bi bi-fast-forward-fill" viewBox="0 0 16 16">
+                    <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+                    <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+                </svg>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
